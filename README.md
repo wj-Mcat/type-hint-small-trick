@@ -9,7 +9,7 @@ a magic hinting for python methods/attributes in IDE
 
 ## What I have Done
 
-1. define the tensor.pyi to define the members of `Tenosr`, which is not sensitive how the `Tensor` is implemented.
+1. define the tensor.pyi to define the members of `Tensor`, which is not sensitive how the `Tensor` is implemented.
 2. use `TYPE_CHECKING` to detect the `DEV` or `Runtime` mode.
 
  enjoy the [`main.py`](./main.py) to get more details.
